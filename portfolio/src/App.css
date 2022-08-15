@@ -1,11 +1,7 @@
-.App {
-  text-align: center;
+*{
+  background: #ffff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,20 +9,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +17,69 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Homepage Header */
+
+.homepage{
+  display: flex;
+}
+
+.homepage-tag{
+  position: absolute;
+  width: 506px;
+  height: 105px;
+  left: 148px;
+  top: 228px;
+  font-family: 'Heebo';
+  font-style: normal;
+}
+
+.homepage-tag h1{
+  font-weight: 700;
+  font-size: 44px;
+  margin-bottom: 2rem;
+  line-height: 60px;
+  color: #21243D;
+}
+
+.homepage-tag p{
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 2rem;
+  line-height: 24px;
+  color: #21243D;
+}
+
+.homepage-tag button{
+  width: 208px;
+  height: 47px;
+  left: 148px;
+  top: 477px;
+  background-color: #FF6464;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.homepage-img{
+  position: absolute;
+  width: 30rem;
+  height: 30rem;
+  left: 60%;
+  top: 150px;
+  background-image: url(./images/391-3919735_alicia-profile-photography.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+/* Homepage header */
+
+
+/* Recents Posts */
+
+.recents{
+  background-color: #EDF7FA;
 }

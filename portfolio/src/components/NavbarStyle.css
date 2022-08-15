@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: 5rem;
+    background: #ffff;
+}
+.nav{
+    top: 0;
+}
+
+.nav ul{
+    list-style-type :none;
+}
+.nav li{
+    text-decoration: none;
+}
+
+.nav-link{
+    color: black;
+    padding: 0 1rem;
+}
+
+link{
+    text-decoration: none;
+}
