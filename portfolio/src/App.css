@@ -80,6 +80,17 @@
 
 /* Recents Posts */
 
+
 .recents{
+  margin: 8rem;
   background-color: #EDF7FA;
+  display: flex;
+  justify-content: space-between;
 }
+
+.recentsH-left{
+  background-color: #FFFFFF;
+  
+}
+
+
